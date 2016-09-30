@@ -15,7 +15,7 @@ import retrofit2.Retrofit;
  */
 
 public class YoutubeClient {
-    public static final String BASE_URL = "https://nguyenvulebinh-cbplay.appspot.com";
+    public static final String BASE_URL = "private-server";
     private static final MediaType MEDIA_TYPE = MediaType.parse("text/plain");
     private static Retrofit retrofit = null;
 
