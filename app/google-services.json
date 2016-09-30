@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "813243541155",
+    "firebase_url": "https://video-downloader-yt.firebaseio.com",
+    "project_id": "video-downloader-yt",
+    "storage_bucket": "video-downloader-yt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813243541155:android:4208666e41ff42f2",
+        "android_client_info": {
+          "package_name": "nb.cblink.youtube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813243541155-pht2352sc7c86tuspsraj6dm0sprq5or.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nb.cblink.youtube",
+            "certificate_hash": "A04063335AD573CE67E0036C31118DC28C862BAA"
+          }
+        },
+        {
+          "client_id": "813243541155-6a4h3bru9s7sr6p9636bob4el0ngt7dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvRqYePh-pWKx2K80I5r3f9vBGsb9f8Uk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813243541155-6a4h3bru9s7sr6p9636bob4el0ngt7dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

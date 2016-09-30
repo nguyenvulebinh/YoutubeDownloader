@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data class="TrainFragmentBinding">
+        <variable
+            name="tmv"
+            type="nb.cblink.youtube.viewmodel.TrainModelView"/>
+    </data>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_marginTop="15dp"
+            card_view:cardBackgroundColor="@color/colorCardView"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="How to use"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="15dp"
+                    card_view:cardBackgroundColor="@color/colorCardView"
+                    card_view:cardCornerRadius="10dp"
+                    android:onClick="@{() -> tmv.trainAppYoutube()}">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/right_arrow_effect"
+                        android:text="Download from app Youtube"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="15dp"
+                    card_view:cardBackgroundColor="@color/colorCardView"
+                    card_view:cardCornerRadius="10dp"
+                    android:onClick="@{() -> tmv.trainWebYoutube()}">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/right_arrow_effect"
+                        android:text="Download from web Youtube"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="15dp"
+                    card_view:cardBackgroundColor="@color/colorCardView"
+                    card_view:cardCornerRadius="10dp"
+                    android:onClick="@{() -> tmv.trainOther()}">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Other way"
+                        android:background="@drawable/right_arrow_effect"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+</layout>

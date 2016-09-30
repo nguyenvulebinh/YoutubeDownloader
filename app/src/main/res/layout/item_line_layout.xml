@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data class="TitleContentBinding">
+        <variable
+            name="title"
+            type="String" />
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{title}"
+            android:layout_marginRight="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1b1b1b"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#4e4e4e" />
+    </LinearLayout>
+</layout>

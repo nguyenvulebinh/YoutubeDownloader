@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F00101</color>
+    <color name="colorPrimaryDark">#C20101</color>
+    <color name="colorPrimaryDarkOther">#010101</color>
+    <color name="colorAccent">#00c4ff</color>
+    <color name="colorCardViewTrain">#ebff85</color>
+    <color name="colorCardView">#f7f7f7</color>
+    <color name="colorRightArrowClick">#d9d9d9</color>
+
+</resources>
